@@ -50,9 +50,10 @@
     <!-- navbar end -->
     <!-- banner start -->
     <div class="hero bg-base-200 lg:pt-24 pt-12">
-      <div class="text-center">
+      <div id="con" class="text-center">
         <div class="text-center">
-          <h1 class="lg:text-5xl text-3xl font-semibold lg:mb-8 mb-4">Freshness <span class="text-[#179800]">You Can
+          <h1 id="banner-heading" class="lg:text-5xl text-3xl font-semibold lg:mb-8 mb-4">Freshness <span
+              class="text-[#179800]">You Can
               <br>Count</span>
             On, Prices <br class="lg:hidden">You’ll Love!</h1>
           <p>
@@ -253,33 +254,35 @@
     </section>
     <!-- product end-->
 
-    <!-- product start -->
-    <section class="">
+    <!-- offer start -->
+    <section>
       <h2 class="text-2xl lg:mx-48 lg:pt-32 lg:mb-10 pt-10 mb-8 font-semibold text-[#179800]">Arrival & Offers</h2>
       <div class="lg:flex justify-center items-center gap-5">
         <!-- rice 1 -->
-         <div class="flex items-center lg:w-[660px] rounded-2xl bg-[#115414]">
+        <div class="flex items-center lg:w-[660px] rounded-2xl bg-[#115414]">
           <div class="lg:ml-10 lg:mr-20 max-[576px]:pl-3">
             <img class="lg:mb-7 mb-3" src="assets/dawat-logo.png" alt="">
-            <p class="lg:mb-7 mb-3 lg:px-6 lg:py-3 px-3 py-3  text-center rounded-xl text-white bg-[#63B76D]">Cook Exotic Dishes</p>
+            <p class="lg:mb-7 mb-3 lg:px-6 lg:py-3 px-3 py-3  text-center rounded-xl text-white bg-[#63B76D]">Cook
+              Exotic Dishes</p>
             <p class="text-2xl text-white">UP to <span class="font-bold">20% OFF</span></p>
           </div>
           <div>
             <img class="lg:w-80 w-[175px] ml-6 pt-8" src="assets/dawat-mock-up.png" alt="">
           </div>
-         </div>
-         <!-- rice 2 -->
-         <div class="flex items-center lg:w-[500px] max-[576px]:mt-3 rounded-2xl bg-[#102861]">
+        </div>
+        <!-- rice 2 -->
+        <div class="flex items-center lg:w-[500px] max-[576px]:mt-3 rounded-2xl bg-[#102861]">
           <div class="lg:ml-10 mr-10 max-[576px]:mr-16 max-[576px]:pl-3">
             <img src="assets/india-gate-logo.png" alt="">
-            <p class="mb-2 lg:px-6 lg:py-3 px-3 py-3  text-center rounded-xl text-white bg-[#2A4D97]">World’s No.1 Rice</p>
+            <p class="mb-2 lg:px-6 lg:py-3 px-3 py-3  text-center rounded-xl text-white bg-[#2A4D97]">World’s No.1 Rice
+            </p>
             <p class="text-2xl text-white">UP to <span class="font-bold">40% OFF</span></p>
           </div>
           <div>
             <img class="max-[576px]:w-28 ml-6 pt-5" src="assets/india-gate-mock-up.png" alt="">
           </div>
-         </div>
-         <!-- <div class="flex items-center rounded-3xl bg-[#115414]">
+        </div>
+        <!-- <div class="flex items-center rounded-3xl bg-[#115414]">
           <div class="ml-10 mr-20">
             <img class="mb-7" src="assets/india-gate-logo.png" alt="">
             <p class="mb-7 px-6 py-3 text-center rounded-xl text-white bg-[#63B76D]">Cook Exotic Dishes</p>
@@ -291,20 +294,41 @@
          </div> -->
       </div>
     </section>
-    <!-- product end-->
+    <!-- offer end-->
   </main>
-  <footer>
-    <!-- newsletter section -->
-    <div class="lg:flex justify-center items-center gap-28 rounded-xl lg:w-[1180px] mx-auto py-10 bg-base-200">
-      <div><img src="assets/vegetable-busket.png" alt=""></div>
-      <div>
-        <h4 class="lg:text-3xl text-2xl max-sm:text-center max-sm:text-[#179800] max-sm:mt-6 mb-6 font-semibold">Get Grocery News!</h4>
-        <p class="mb-9 max-[576px]:text-center">Exclusive training tips, ticks, product deals and more.</p>
-        <input class="lg:w-96 py-4 pl-4 w-full rounded-lg" type="text" placeholder="Enter email...."><br>
-        <button class="flex mx-auto max-sm:mt-4 lg:mt-14 px-7 py-2 rounded-md bg-[#179800] text-white">Subscribe</button>
-      </div>
-    </div>
-  </footer>
 </body>
+<footer class="lg:relative lg:mt-96 mt-44">
+  <!-- newsletter section -->
+  <div
+    class="absolute lg:bottom-56 lg:left-52 max-sm:top-[3550px] lg:flex justify-center items-center gap-28 rounded-xl lg:w-[1180px] mx-auto py-10 bg-base-200">
+    <div>
+      <img src="assets/vegetable-busket.png" alt="">
+    </div>
+    <div>
+      <h4 class="lg:text-3xl text-2xl max-sm:text-center max-sm:text-[#179800] max-sm:mt-6 mb-6 font-semibold">Get
+        Grocery News!</h4>
+      <p class="mb-9 max-[576px]:text-center">Exclusive training tips, ticks, product deals and more.</p>
+      <input class="lg:w-96 py-4 pl-4 w-full rounded-lg" type="text" placeholder="Enter email...."><br>
+      <button
+        class="flex max-sm:mx-auto max-sm:mt-4 lg:mt-14 px-7 py-2 rounded-md bg-[#179800] text-white">Subscribe</button>
+    </div>
+  </div>
+  <div class="lg:flex justify-center items-center lg:gap-72 lg:pt-72 pt-[570px] bg-[#179800]">
+    <div>
+      <img class="max-sm:mb-6" src="assets/logo-footer.png" alt="">
+      <p class="text-white mt-2 max-sm:pb-6">Discover a world of treats, toys, and<br> essentials handpicked for your
+        furry<br class="max-sm:hidden"> friends</p>
+    </div>
+    <div class="text-white">
+      <p class="mb-2">Product</p>
+      <p class="mb-2">Services</p>
+      <p class="max-sm:mb-6">Contact Us</p>
+    </div>
+    <div>
+      <p class="mb-2 text-white">Follow Us</p>
+      <img src="assets/Group 9168.png" alt="">
+    </div>
+  </div>
+</footer>
 
 </html>
